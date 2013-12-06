@@ -11,8 +11,8 @@ namespace TesteVendas
         {
            decimal valorVenda = 100;
            decimal comissaoVendaEsperada = 5;
-
-           decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            
+           decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
            Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
@@ -22,7 +22,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 200;
             decimal comissaoVendaEsperada = 10;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
  
@@ -33,7 +33,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 10000;
             decimal comissaoVendaEsperada = 500;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
 
@@ -44,7 +44,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 1;
             decimal comissaoVendaEsperada = 0.05M;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
@@ -54,7 +54,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 0;
             decimal comissaoVendaEsperada = 0;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
@@ -64,7 +64,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 100000;
             decimal comissaoVendaEsperada = 6000;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
@@ -74,7 +74,7 @@ namespace TesteVendas
         {
             decimal valorVenda = 10001;
             decimal comissaoVendaEsperada = 600.06M;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
@@ -84,9 +84,10 @@ namespace TesteVendas
         {
             decimal valorVenda = 55.59M;
             decimal comissaoVendaEsperada = 2.77M;
-            decimal valorComissaoRetornado = CalculadoraComissao.calculaComissao(valorVenda);
+            decimal valorComissaoRetornado = new CalculadoraComissao().calculaComissao(valorVenda);
 
             Assert.AreEqual(comissaoVendaEsperada, valorComissaoRetornado);
         }
+
     }
 }

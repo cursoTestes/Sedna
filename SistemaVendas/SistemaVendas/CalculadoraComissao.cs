@@ -8,7 +8,7 @@ namespace SistemaVendas
     public class CalculadoraComissao
     {
 
-        public static decimal calculaComissao(decimal valorVenda)
+        public virtual decimal calculaComissao(decimal valorVenda)
         {
             decimal comissao = 0;
             if (valorVenda > 10000)
