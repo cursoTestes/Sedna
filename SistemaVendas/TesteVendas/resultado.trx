@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0d82583f-1ade-4639-a408-312b976ebc91" name="cfc@CFC-WINDOWS 2013-03-08 13:19:39" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6ca4ac87-684d-44ae-97d3-aca3f336e394">
+    <Deployment userDeploymentRoot="c:\mellon\SistemaVendas\TesteVendas" useDefaultDeploymentRoot="false" runDeploymentRoot="cfc_CFC-WINDOWS 2013-03-08 13_19_39" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-08T13:19:39.5843247-03:00" queuing="2013-03-08T13:19:39.8393393-03:00" start="2013-03-08T13:19:39.8883421-03:00" finish="2013-03-08T13:19:40.2163609-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteCalculoComissaoVenda100Retorna5" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c">
+      <Execution id="d4287e5a-4e6f-4e1c-b832-a9c2fedd40f1" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda100Retorna5" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVenda200Retorna10" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="c0258968-f0f0-5010-d946-a029b25db6e5">
+      <Execution id="040d7f5f-9493-4d8f-a9cd-3468a1625c14" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda200Retorna10" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVenda200000Retorna12000" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="3cb71dc5-8aec-1641-df14-1ce84aea5ec7">
+      <Execution id="e0960ca6-68d1-47d2-b336-9fc894ec071e" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda200000Retorna12000" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVenda100000Retorna6000" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="7cdfdda0-22c4-9f76-c685-0a553f61ec05">
+      <Execution id="8b125b19-f1ff-42c2-baf5-c2357729bad8" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda100000Retorna6000" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVenda10000Retorna500" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="166b461e-e1ae-ddb7-ae80-40a53b948e19">
+      <Execution id="dd5a49cc-7382-43e2-b09e-9776895a4d87" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda10000Retorna500" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVendaComProblemaArrendondamentoRetornaArredondadoParaBaixo" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="43e84860-e53c-6be8-c89a-f2819440d53e">
+      <Execution id="2b2b3d48-caab-406d-9f43-40da0fe92371" />
+      <TestMethod codeBase="c:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVendaComProblemaArrendondamentoRetornaArredondadoParaBaixo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7cdfdda0-22c4-9f76-c685-0a553f61ec05" executionId="8b125b19-f1ff-42c2-baf5-c2357729bad8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="166b461e-e1ae-ddb7-ae80-40a53b948e19" executionId="dd5a49cc-7382-43e2-b09e-9776895a4d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c" executionId="d4287e5a-4e6f-4e1c-b832-a9c2fedd40f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cb71dc5-8aec-1641-df14-1ce84aea5ec7" executionId="e0960ca6-68d1-47d2-b336-9fc894ec071e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0258968-f0f0-5010-d946-a029b25db6e5" executionId="040d7f5f-9493-4d8f-a9cd-3468a1625c14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43e84860-e53c-6be8-c89a-f2819440d53e" executionId="2b2b3d48-caab-406d-9f43-40da0fe92371" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8b125b19-f1ff-42c2-baf5-c2357729bad8" testId="7cdfdda0-22c4-9f76-c685-0a553f61ec05" testName="TesteCalculoComissaoVenda100000Retorna6000" computerName="CFC-WINDOWS" duration="00:00:00.0240503" startTime="2013-03-08T13:19:39.8983427-03:00" endTime="2013-03-08T13:19:40.1613577-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b125b19-f1ff-42c2-baf5-c2357729bad8">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd5a49cc-7382-43e2-b09e-9776895a4d87" testId="166b461e-e1ae-ddb7-ae80-40a53b948e19" testName="TesteCalculoComissaoVenda10000Retorna500" computerName="CFC-WINDOWS" duration="00:00:00.0002232" startTime="2013-03-08T13:19:40.1633578-03:00" endTime="2013-03-08T13:19:40.1673581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd5a49cc-7382-43e2-b09e-9776895a4d87">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4287e5a-4e6f-4e1c-b832-a9c2fedd40f1" testId="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c" testName="TesteCalculoComissaoVenda100Retorna5" computerName="CFC-WINDOWS" duration="00:00:00.0002143" startTime="2013-03-08T13:19:40.1693582-03:00" endTime="2013-03-08T13:19:40.1733584-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4287e5a-4e6f-4e1c-b832-a9c2fedd40f1">
+    </UnitTestResult>
+    <UnitTestResult executionId="e0960ca6-68d1-47d2-b336-9fc894ec071e" testId="3cb71dc5-8aec-1641-df14-1ce84aea5ec7" testName="TesteCalculoComissaoVenda200000Retorna12000" computerName="CFC-WINDOWS" duration="00:00:00.0002978" startTime="2013-03-08T13:19:40.1753585-03:00" endTime="2013-03-08T13:19:40.1843590-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0960ca6-68d1-47d2-b336-9fc894ec071e">
+    </UnitTestResult>
+    <UnitTestResult executionId="040d7f5f-9493-4d8f-a9cd-3468a1625c14" testId="c0258968-f0f0-5010-d946-a029b25db6e5" testName="TesteCalculoComissaoVenda200Retorna10" computerName="CFC-WINDOWS" duration="00:00:00.0002208" startTime="2013-03-08T13:19:40.1863591-03:00" endTime="2013-03-08T13:19:40.1923595-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="040d7f5f-9493-4d8f-a9cd-3468a1625c14">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b2b3d48-caab-406d-9f43-40da0fe92371" testId="43e84860-e53c-6be8-c89a-f2819440d53e" testName="TesteCalculoComissaoVendaComProblemaArrendondamentoRetornaArredondadoParaBaixo" computerName="CFC-WINDOWS" duration="00:00:00.0002135" startTime="2013-03-08T13:19:40.1933595-03:00" endTime="2013-03-08T13:19:40.1983598-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b2b3d48-caab-406d-9f43-40da0fe92371">
+    </UnitTestResult>
+  </Results>
+</TestRun>
